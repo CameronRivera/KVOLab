@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48C98A9243B955300570712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98A8243B955300570712 /* AppDelegate.swift */; };
+		C48C98AB243B955300570712 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98AA243B955300570712 /* SceneDelegate.swift */; };
+		C48C98B2243B955700570712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48C98B1243B955700570712 /* Assets.xcassets */; };
+		C48C98B5243B955700570712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48C98B3243B955700570712 /* LaunchScreen.storyboard */; };
+		C48C98C1243B967B00570712 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98C0243B967B00570712 /* MainTabBarController.swift */; };
+		C48C98C3243BAE2100570712 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98C2243BAE2100570712 /* CreateUserViewController.swift */; };
+		C48C98C5243BAE3000570712 /* WithdrawalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98C4243BAE3000570712 /* WithdrawalsViewController.swift */; };
+		C48C98C7243BAE5800570712 /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98C6243BAE5800570712 /* UserInformationViewController.swift */; };
+		C48C98C9243BAE7800570712 /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98C8243BAE7800570712 /* CreateUserView.swift */; };
+		C48C98CB243BAE8E00570712 /* WithdrawalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98CA243BAE8E00570712 /* WithdrawalsView.swift */; };
+		C48C98CD243BAE9E00570712 /* UserInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98CC243BAE9E00570712 /* UserInformationView.swift */; };
+		C48C98CF243BB54800570712 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98CE243BB54800570712 /* HeaderView.swift */; };
+		C48C98D1243BB55500570712 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98D0243BB55500570712 /* EmptyStateView.swift */; };
+		C48C98D4243BB69700570712 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C98D3243BB69700570712 /* UIViewController+Extensions.swift */; };
+		C4D026EE243D05E200AE735D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D026ED243D05E200AE735D /* Account.swift */; };
+		C4D026F0243D05F500AE735D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D026EF243D05F500AE735D /* User.swift */; };
+		C4D026F2243D0C7000AE735D /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D026F1243D0C7000AE735D /* Bank.swift */; };
+		C4D026F5243D19F200AE735D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D026F4243D19F200AE735D /* UserCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C48C98A5243B955300570712 /* KVOLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48C98A8243B955300570712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C48C98AA243B955300570712 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C48C98B1243B955700570712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C48C98B4243B955700570712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C48C98B6243B955700570712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48C98C0243B967B00570712 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C48C98C2243BAE2100570712 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		C48C98C4243BAE3000570712 /* WithdrawalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalsViewController.swift; sourceTree = "<group>"; };
+		C48C98C6243BAE5800570712 /* UserInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		C48C98C8243BAE7800570712 /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
+		C48C98CA243BAE8E00570712 /* WithdrawalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawalsView.swift; sourceTree = "<group>"; };
+		C48C98CC243BAE9E00570712 /* UserInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationView.swift; sourceTree = "<group>"; };
+		C48C98CE243BB54800570712 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C48C98D0243BB55500570712 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		C48C98D3243BB69700570712 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		C4D026ED243D05E200AE735D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C4D026EF243D05F500AE735D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4D026F1243D0C7000AE735D /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		C4D026F4243D19F200AE735D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48C98A2243B955200570712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48C989C243B955200570712 = {
+			isa = PBXGroup;
+			children = (
+				C48C98A7243B955300570712 /* KVOLab */,
+				C48C98A6243B955300570712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48C98A6243B955300570712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98A5243B955300570712 /* KVOLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48C98A7243B955300570712 /* KVOLab */ = {
+			isa = PBXGroup;
+			children = (
+				C4D026F3243D138600AE735D /* Cells */,
+				C4D026EC243D05B100AE735D /* Models */,
+				C48C98D2243BB67100570712 /* Extensions */,
+				C48C98BE243B95B000570712 /* Storyboards */,
+				C48C98BD243B959900570712 /* Supporting FIles */,
+				C48C98BF243B95BC00570712 /* Views */,
+				C48C98BC243B956E00570712 /* Controllers */,
+				C48C98B6243B955700570712 /* Info.plist */,
+			);
+			path = KVOLab;
+			sourceTree = "<group>";
+		};
+		C48C98BC243B956E00570712 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98C0243B967B00570712 /* MainTabBarController.swift */,
+				C48C98C2243BAE2100570712 /* CreateUserViewController.swift */,
+				C48C98C4243BAE3000570712 /* WithdrawalsViewController.swift */,
+				C48C98C6243BAE5800570712 /* UserInformationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C48C98BD243B959900570712 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98A8243B955300570712 /* AppDelegate.swift */,
+				C48C98AA243B955300570712 /* SceneDelegate.swift */,
+				C48C98B1243B955700570712 /* Assets.xcassets */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		C48C98BE243B95B000570712 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98B3243B955700570712 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C48C98BF243B95BC00570712 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98C8243BAE7800570712 /* CreateUserView.swift */,
+				C48C98CA243BAE8E00570712 /* WithdrawalsView.swift */,
+				C48C98CC243BAE9E00570712 /* UserInformationView.swift */,
+				C48C98CE243BB54800570712 /* HeaderView.swift */,
+				C48C98D0243BB55500570712 /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C48C98D2243BB67100570712 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C48C98D3243BB69700570712 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4D026EC243D05B100AE735D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4D026ED243D05E200AE735D /* Account.swift */,
+				C4D026EF243D05F500AE735D /* User.swift */,
+				C4D026F1243D0C7000AE735D /* Bank.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4D026F3243D138600AE735D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4D026F4243D19F200AE735D /* UserCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48C98A4243B955200570712 /* KVOLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48C98B9243B955700570712 /* Build configuration list for PBXNativeTarget "KVOLab" */;
+			buildPhases = (
+				C48C98A1243B955200570712 /* Sources */,
+				C48C98A2243B955200570712 /* Frameworks */,
+				C48C98A3243B955200570712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOLab;
+			productName = KVOLab;
+			productReference = C48C98A5243B955300570712 /* KVOLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48C989D243B955200570712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Cameron Rivera";
+				TargetAttributes = {
+					C48C98A4243B955200570712 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = C48C98A0243B955200570712 /* Build configuration list for PBXProject "KVOLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48C989C243B955200570712;
+			productRefGroup = C48C98A6243B955300570712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48C98A4243B955200570712 /* KVOLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48C98A3243B955200570712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C98B5243B955700570712 /* LaunchScreen.storyboard in Resources */,
+				C48C98B2243B955700570712 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48C98A1243B955200570712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48C98A9243B955300570712 /* AppDelegate.swift in Sources */,
+				C4D026EE243D05E200AE735D /* Account.swift in Sources */,
+				C48C98C9243BAE7800570712 /* CreateUserView.swift in Sources */,
+				C48C98C3243BAE2100570712 /* CreateUserViewController.swift in Sources */,
+				C48C98AB243B955300570712 /* SceneDelegate.swift in Sources */,
+				C48C98D4243BB69700570712 /* UIViewController+Extensions.swift in Sources */,
+				C4D026F0243D05F500AE735D /* User.swift in Sources */,
+				C48C98CD243BAE9E00570712 /* UserInformationView.swift in Sources */,
+				C4D026F5243D19F200AE735D /* UserCell.swift in Sources */,
+				C48C98CF243BB54800570712 /* HeaderView.swift in Sources */,
+				C48C98C1243B967B00570712 /* MainTabBarController.swift in Sources */,
+				C48C98CB243BAE8E00570712 /* WithdrawalsView.swift in Sources */,
+				C48C98C7243BAE5800570712 /* UserInformationViewController.swift in Sources */,
+				C4D026F2243D0C7000AE735D /* Bank.swift in Sources */,
+				C48C98C5243BAE3000570712 /* WithdrawalsViewController.swift in Sources */,
+				C48C98D1243BB55500570712 /* EmptyStateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C48C98B3243B955700570712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48C98B4243B955700570712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48C98B7243B955700570712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C48C98B8243B955700570712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48C98BA243B955700570712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D2PJ2UC46;
+				INFOPLIST_FILE = KVOLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameronrivera.KVOLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C48C98BB243B955700570712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D2PJ2UC46;
+				INFOPLIST_FILE = KVOLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cameronrivera.KVOLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48C98A0243B955200570712 /* Build configuration list for PBXProject "KVOLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48C98B7243B955700570712 /* Debug */,
+				C48C98B8243B955700570712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48C98B9243B955700570712 /* Build configuration list for PBXNativeTarget "KVOLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48C98BA243B955700570712 /* Debug */,
+				C48C98BB243B955700570712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48C989D243B955200570712 /* Project object */;
+}
